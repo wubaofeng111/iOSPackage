@@ -14,10 +14,12 @@ DestApp:VideoApp
 VideoApp:$(MainMos)
 	clang arm64/main.o -o arm64/VideoApp64 -iframework $(SFrameWrokPath) -framework UIKit -arch arm64  -isysroot $(SDKPath) -framework Foundation
 	clang armv7/main.o -o armv7/VideoAppV7 -iframework $(SFrameWrokPath) -framework UIKit -arch armv7  -isysroot $(SDKPath) -framework Foundation
-main.o:main.m
+main.o:main.m mdDskdir
 	clang  -c main.m -o arm64/main.o -iframework $(SFrameWrokPath) -framework UIKit -F$(SFrameWrokPath) -arch arm64 -fmacro-backtrace-limit=0 -std=gnu99  -isysroot $(SDKPath)
 	clang  -c main.m -o armv7/main.o -iframework $(SFrameWrokPath) -framework UIKit -F$(SFrameWrokPath) -arch armv7 -fmacro-backtrace-limit=0 -std=gnu99  -isysroot $(SDKPath)
-
+mdDskdir:
+	rm -rf arm64 armv7
+	mkdir arm64 armv7
 
 
 findCer:
@@ -25,11 +27,6 @@ findCer:
 
 otoolTx:
 	otool -l VideoApp.app/VideoApp | grep crypt
-
-
-	
-
-
 
 ZipLoad:Move
 	zip -r Payload.zip Payload 
