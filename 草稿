@@ -1,0 +1,116 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 
+-fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu11 
+-fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Extern/Build/ModuleCache.noindex -fmodules-prune-interval=86400 -fmodules-prune-after=345600 
+-fbuild-session-file=/Volumes/Extern/Build/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session 
+-Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers 
+-Wno-missing-prototypes -Werror=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars 
+-Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function 
+-Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants 
+-Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 
+-Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DPOD_CONFIGURATION_RELEASE=1 -DCOCOAPODS=1 
+-DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 
+-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk 
+-fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=4.3 -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing 
+-Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fembed-bitcode 
+-iquote /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/CHPageControl-generated-files.hmap 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/CHPageControl-own-target-headers.hmap 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/CHPageControl-all-target-headers.hmap 
+-iquote /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/CHPageControl-project-headers.hmap 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/CHPageControl/include 
+-I/Volumes/Extern/iosvideoeditpro/Pods/Headers/Private 
+-I/Volumes/Extern/iosvideoeditpro/Pods/Headers/Private/CHPageControl 
+-I/Volumes/Extern/iosvideoeditpro/Pods/Headers/Public 
+-I/Volumes/Extern/iosvideoeditpro/Pods/Headers/Public/CHPageControl 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/DerivedSources-normal/armv7 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/DerivedSources/armv7 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/DerivedSources 
+-F/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/CHPageControl 
+-include /Volumes/Extern/iosvideoeditpro/Pods/Target\ Support\ Files/CHPageControl/CHPageControl-prefix.pch -MMD -MT dependencies 
+-MF /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/Objects-normal/armv7/CHPageControl-dummy.d 
+--serialize-diagnostics /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/Objects-normal/armv7/CHPageControl-dummy.dia 
+-c /Volumes/Extern/iosvideoeditpro/Pods/Target\ Support\ Files/CHPageControl/CHPageControl-dummy.m 
+-o /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CHPageControl.build/Objects-normal/armv7/CHPageControl-dummy.o
+
+
+clang -x c -arch arm64 -fmessage-length=0 
+-fdiagnostics-show-note-include-stack 
+-fmacro-backtrace-limit=0 -std=gnu99 
+-fmodules 
+-fmodules-cache-path=/Volumes/Extern/Build/ModuleCache.noindex 
+-fmodules-prune-interval=86400 
+-fmodules-prune-after=345600 
+-fbuild-session-file=/Volumes/Extern/Build/ModuleCache.noindex/Session.modulevalidation 
+-fmodules-validate-once-per-build-session 
+-Wnon-modular-include-in-framework-module 
+-Werror=non-modular-include-in-framework-module 
+-Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type 
+-Wdocumentation -Wunreachable-code 
+-Werror=deprecated-objc-isa-usage 
+-Werror=objc-root-class 
+-Wno-missing-braces 
+-Wparentheses -Wswitch 
+-Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized 
+-Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion 
+-Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion 
+-Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof 
+-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk 
+-fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=8.0 -g -Wno-sign-conversion -Winfinite-recursion -Wcomma 
+-Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body 
+-iquote /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/RDVEUISDK-generated-files.hmap 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/RDVEUISDK-own-target-headers.hmap 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/RDVEUISDK-all-target-headers.hmap 
+-iquote /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/RDVEUISDK-project-headers.hmap 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/include 
+-I/Volumes/Extern/iosvideoeditpro/AppModule/VideoModule/VideodependentSDK/RDVEUISDK/../RDSDK/include 
+-I/Volumes/Extern/iosvideoeditpro/AppModule/VideoModule/VideodependentSDK/RDVEUISDK/../../../../Pods/Headers/Public/YYKit 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/DerivedSources-normal/arm64 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/DerivedSources/arm64 
+-I/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/DerivedSources 
+-F/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos 
+-include /Volumes/Extern/iosvideoeditpro/AppModule/VideoModule/VideodependentSDK/RDVEUISDK/RDVEUISDK/RDVEUISDK-PrefixHeader.pch 
+-MMD -MT dependencies -MF /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/Objects-normal/arm64/webp.d 
+--serialize-diagnostics /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/Objects-normal/arm64/webp.dia 
+-c /Volumes/Extern/iosvideoeditpro/AppModule/VideoModule/VideodependentSDK/RDVEUISDK/RDVEUISDK/other/libwebp/dec/webp.c 
+-o /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/RDVEUISDK.build/Release-iphoneos/RDVEUISDK.build/Objects-normal/arm64/webp.o
+
+
+
+ERROR ITMS-90507: "Missing Info.plist value. A value for the key 'DTPlatformName' in bundle VideoApp.app is required."
+
+lipo -create /Users/qiuzhongwei/Desktop/HaveCar_Pad\ -\ ww\ 2/HaveCar_Pad/Framework/AipBase.framework/AipBase.i386.a
+/Users/qiuzhongwei/Desktop/HaveCar_Pad\ -\ ww\ 2/HaveCar_Pad/Framework/AipBase.framework/AipBase.arm.a 
+-output /Users/qiuzhongwei/Desktop/HaveCar_Pad\ -\ ww\ 2/HaveCar_Pad/Framework/AipBase.framework/AipBase.a
+
+
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+    -arch armv7 
+    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/AFNetworking 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/Aspects 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/CHPageControl 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/FMDB 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/MBProgressHUD 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/MJRefresh 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/Masonry 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/RadioButton 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/SCLAlertView-Objective-C 
+    -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/SDCycleScrollView -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/SDWebImage -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/UCAppDelegateReduce -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/UCRuntimeKit -L/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/YYKit -L/Volumes/Extern/iosvideoeditpro/Pods/UMCShare/UMShare/SocialLibraries/QQ -L/Volumes/Extern/iosvideoeditpro/Pods/UMCShare/UMShare/SocialLibraries/WeChat -L/Volumes/Extern/iosvideoeditpro/Pods/UMCShare/UMShare/SocialLibraries/WeChat/WechatSDK 
+    -L/Volumes/Extern/iosvideoeditpro/AppModule/VideoModule/VideodependentSDK/RDSDK 
+    -L/Volumes/Extern/iosvideoeditpro/AppModule/VideoModule/VideodependentSDK/RDVEUISDK 
+    -L/Volumes/Extern/iosvideoeditpro/AppModule/HDQiyuTalkModule/QIYU_iOS_SDK 
+    -F/Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos 
+    -F/Volumes/Extern/iosvideoeditpro/Pods/UMCAnalytics 
+    -F/Volumes/Extern/iosvideoeditpro/Pods/UMCCommon 
+    -F/Volumes/Extern/iosvideoeditpro/Pods/UMCSecurityPlugins/thirdparties 
+    -F/Volumes/Extern/iosvideoeditpro/Pods/UMCShare/UMShare 
+    -F/Volumes/Extern/iosvideoeditpro/Pods/UMCShare/UMShare/SocialLibraries/QQ/QQSDK 
+    -F/Volumes/Extern/iosvideoeditpro/Pods/UMCShare/UMShare/UMSocialUI 
+    -F/Volumes/Extern/iosvideoeditpro/Pods/YYKit/Vendor 
+    -F/Volumes/Extern/iosvideoeditpro/AppModule/AppLoginManager/QQLoginSDK 
+    -filelist /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/VideoEditor.build/Release-iphoneos/VideoEditor.build/Objects-normal/armv7/VideoEditor.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=9.0 -dead_strip -Xlinker -object_path_lto 
+    -Xlinker /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/VideoEditor.build/Release-iphoneos/VideoEditor.build/Objects-normal/armv7/VideoEditor_lto.o -Xlinker -final_output -Xlinker /Applications/VideoEditor.app/VideoEditor 
+    -fobjc-arc -fobjc-link-runtime -ObjC -lAFNetworking -lAspects -lCHPageControl -lFMDB -lMBProgressHUD -lMJRefresh -lMasonry -lRadioButton -lSCLAlertView-Objective-C -lSDCycleScrollView -lSDWebImage -lSocialOfficialWeChat -lSocialQQ -lSocialWeChat -lUCAppDelegateReduce -lUCRuntimeKit -lWeChatSDK -lYYKit -lc++ -lsqlite3 -lz -framework Accelerate -framework AssetsLibrary -framework AudioToolbox -framework CoreFoundation -framework CoreGraphics -framework CoreImage -framework CoreTelephony -framework CoreText -framework Foundation -framework ImageIO -framework MobileCoreServices -framework QuartzCore -framework Security -framework SecurityEnvSDK -framework SystemConfiguration -framework TencentOpenAPI -framework UIKit -framework UMAnalytics -framework UMCommon -framework UMShare -framework UShareUI -framework UTDID -framework WebP -lAFNetworking -lMBProgressHUD -lMJRefresh -lMasonry -lSDCycleScrollView -lSDWebImage -lUCAppDelegateReduce -lUCRuntimeKit -lWeChatSDK -lYYKit -lc++ -lsqlite3 -lsqlite3.0 -lz -framework Accelerate -framework AssetsLibrary -framework CFNetwork -framework CoreFoundation -framework CoreGraphics -framework CoreImage -framework CoreTelephony -framework CoreText -framework Foundation -framework ImageIO -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit -framework WebP -Objc -framework QuickLook -framework SystemConfiguration -framework MobileCoreServices -framework CoreTelephony -framework CoreText -framework CoreMedia -framework AudioToolbox -framework Photos -framework AssetsLibrary -framework CoreMotion -lsqlite3.0 -lxml2 -lQYSDK -lcrypto -levent /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/BuildProductsPath/Release-iphoneos/libRDVEUISDK.a 
+    -framework Accelerate -lz.1.2.8 -framework Foundation -framework TencentOpenAPI -framework OpenGLES -framework AVFoundation -lc++ -lPods-VideoEditor -lPods-VideoEditor -Xlinker -dependency_info 
+    -Xlinker /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/VideoEditor.build/Release-iphoneos/VideoEditor.build/Objects-normal/armv7/VideoEditor_dependency_info.dat 
+    -o /Volumes/Extern/Build/VideoEditor-baixasrxywlznmgdbyeqbkhmdncg/Build/Intermediates.noindex/ArchiveIntermediates/VideoEditor/IntermediateBuildFilesPath/VideoEditor.build/Release-iphoneos/VideoEditor.build/Objects-normal/armv7/VideoEditor
